@@ -1,10 +1,20 @@
-# Oracle BI Publisher SQL Formatter
+# Oracle Fusion BIP SQL Formatter
 
-Browser extension to transform the SQL Query fromOracle BI Publisher SQL  Data Sets into a formatted SQL with syntax highligting and line numbers.
+A Chrome/Edge browser extension for formatting Oracle Fusion BI Publisher SQL with syntax highlighting, line numbers, and export capabilities.
 
-## Features (v1.0.0)
+## Features
 
-*   **Syntax Highlighting:** Oracle SQL support.
-*   **Formatting:** Auto-format SQL (Ctrl+Shift+F logic available in toolbar).
-*   **Export:** Save query as `.sql` file.
-
+- **SQL Formatting**: Oracle SQL formatting with readability-first approach
+  - One column per line
+  - Leading commas
+  - Aligned JOINs
+  - Legacy and ANSI join support
+- **Syntax Highlighting**:
+  - SQL keywords
+  - Oracle-specific functions
+  - Bind variables (`:parameter`)
+  - Comments
+- **Modern UI**: Clean side panel with auto dark/light theme
+- **Clipboard**: Copy formatted SQL with visual confirmation
+- **Export**: Save as `.sql` file with browser file picker
+- **Privacy**: All processing local - no data leaves your browser
